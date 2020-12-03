@@ -1,0 +1,92 @@
+* {box-sizing: border-box;}
+
+body, html {
+    height: 100%;
+
+}
+
+body {
+    color:blue;
+}
+
+
+main {
+    display: grid;
+    height: 400px;
+    width: 500px;
+    border: solid black 1px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1/2;
+    grid-column: 1/21;
+}
+
+.top-amazon-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red 1px;
+    background-color: lightgray;
+    grid-row: 1/2;
+    grid-column: 1/21;
+}
+
+.bottom-amazon-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red 1px;
+    background-color: darkgray;
+    grid-row: 2/3;
+    grid-column: 1/21; 
+}
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red 1px;
+    grid-row: 3/20;
+    grid-column: 1/21;
+}
+
+
+.lower-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid green 1px;
+    grid-row: 3/20;
+    grid-column: 1/21;
+}
+
+.lower-box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid magenta 1px;
+    grid-row: 8/19;
+    grid-column: 2/5;
+    
+}
+
+.lower-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid magenta 1px;
+    grid-row: 8/19;
+    grid-column: 6/9;
+}
+
+.lower-box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid magenta 1px;
+    grid-row: 8/19;
+    grid-column: 10/20;
+}
